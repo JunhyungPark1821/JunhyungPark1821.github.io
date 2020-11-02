@@ -4734,3 +4734,7 @@ input, select, textarea {
 		}
 
 	}
+
+	.image.main img {
+		width: 75%
+	}
