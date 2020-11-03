@@ -4735,6 +4735,6 @@ input, select, textarea {
 
 	}
 
-	.image.main img {
-		width: 75%
+	.image.main img[id="smartWindows_page_main"] {
+		width: 50%;
 	}
