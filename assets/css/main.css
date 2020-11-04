@@ -2636,7 +2636,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
+			margin: 0rem;
 			width: 100%;
 		}
 
@@ -2645,7 +2645,7 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 35%;
+				width: 50%;
 				margin-left: auto;
 				margin-right: auto;
 			}
@@ -4736,5 +4736,19 @@ input, select, textarea {
 	}
 
 	.image.main img[id="smartWindows_page_main"] {
-		width: 50%;
+		width: 70%;
+	}
+
+	div {
+		margin-bottom: 50px;
+	}
+
+	.image.main img[id="smartWindows_operation"] {
+		width: 45%;
+		float: left;
+	}
+
+	.image.main img[id="smartWindows_operation_two"] {
+		width: 45%;
+		float: right;
 	}
