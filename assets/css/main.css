@@ -177,7 +177,7 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		text-align: left;
 		margin: 0 0 2rem 0;
 	}
 
@@ -2722,6 +2722,13 @@ input, select, textarea {
 		margin-left: auto;
 	}
 
+	.video.supsat {
+		width: 100%;
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+
 
 
 /* Actions */
@@ -4752,6 +4759,10 @@ input, select, textarea {
 	.image.main img[id="smartWindows_operation_two"] {
 		width: 45%;
 		float: right;
+	}
+
+	.image.main img[id="supsat_team"] {
+		width: 75%;
 	}
 
 .alert {
