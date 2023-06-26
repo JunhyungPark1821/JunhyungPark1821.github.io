@@ -2211,6 +2211,14 @@ input, select, textarea {
 		color: #212931 !important;
 	}
 
+		.homebtn{
+			background-color: white;
+			position: fixed;
+			right: 2rem;
+			padding-left: 24px;
+    		padding-right: 24px;
+		}
+
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
